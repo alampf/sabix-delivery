@@ -1,7 +1,13 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './layout/header.vue';
+import HelloWorld from './components/footer.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <div class="min-h-screen overflow-x-hidden">
+    <Header />
+    <main>
+      <HelloWorld />
+    </main>
+  </div>
 </template>

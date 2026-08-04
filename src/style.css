@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@theme {
+  --color-background: #FFFFFF;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  button {
+    cursor: pointer;
+  }
+  
+  body {
+    background-color: var(--color-background);
+    scrollbar-color: #DB6BD7;
+  }
+}
