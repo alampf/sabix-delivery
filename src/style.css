@@ -1,20 +1,39 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #FFFFFF;
+  --color-background: #ffffff;
 }
 
 @layer base {
   html {
     scroll-behavior: smooth;
+    scrollbar-color: #db6bd7;
+    user-select: none;
   }
 
   button {
     cursor: pointer;
   }
-  
+
   body {
     background-color: var(--color-background);
-    scrollbar-color: #DB6BD7;
   }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
 }

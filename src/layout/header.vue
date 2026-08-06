@@ -1,11 +1,11 @@
 <script setup lang="ts">
 const menu = [
-  { name: "Inicio", href: "#hero" },
-  { name: "Servicios", href: "#services" },
-  { name: "Repartidores", href: "#drivers" },
-  { name: "Empresas", href: "#business" },
-  { name: "Contacto", href: "#contact" },
-]
+  { name: 'Inicio', href: '#hero' },
+  { name: 'Servicios', href: '#services' },
+  { name: 'Repartidores', href: '#drivers' },
+  { name: 'Empresas', href: '#business' },
+  { name: 'Contacto', href: '#contact' },
+];
 </script>
 
 <template>
@@ -15,16 +15,11 @@ const menu = [
     >
       <!-- Logo -->
       <a href="#hero" class="flex items-center gap-3">
-        <div
-          class="flex h-10 w-10 items-center justify-center rounded-full bg-[#9D2A9C] text-white font-bold"
-        >
-          S
-        </div>
-
-        <div>
-          <h1 class="text-xl font-bold text-[#7E097E]">Sabix</h1>
-          <p class="text-xs text-gray-500">Delivery</p>
-        </div>
+        <img
+          src="../assets/sabix_delivery_logo_two.png"
+          alt="Sabix Delivery"
+          class="h-10 w-auto object-contain"
+        />
       </a>
 
       <!-- Menú -->
