@@ -88,8 +88,8 @@ import { Clock3, MapPinned, Smartphone, Wallet } from '@lucide/vue';
 
       <!-- Imagen -->
       <div class="lg:w-1/2 flex justify-center">
-        <img src="../assets/dealer.jpg" alt="Repartidor Sabix Delivery"
-          class="w-full max-w-md drop-shadow-2xl hover:scale-105 transition duration-500" />
+        <img src="../assets/driver.png" alt="Repartidor Sabix Delivery"
+          class="w-full h-137.5 object-cover rounded-2xl drop-shadow-2xl hover:scale-105 transition duration-500" />
       </div>
     </div>
   </section>

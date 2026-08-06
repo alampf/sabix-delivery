@@ -4,10 +4,14 @@ import { Store, ShoppingBag, Truck, ChartNoAxesCombined } from '@lucide/vue';
 
 <template>
   <section class="py-24 px-6 bg-white">
-    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-16">
+    <div
+      class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-16"
+    >
       <!-- Información -->
       <div class="lg:w-1/2">
-        <span class="inline-block bg-[#fa8bf5]/20 text-[#7e097e] font-semibold px-4 py-2 rounded-full mb-5">
+        <span
+          class="inline-block bg-[#fa8bf5]/20 text-[#7e097e] font-semibold px-4 py-2 rounded-full mb-5"
+        >
           Crece con nosotros
         </span>
 
@@ -47,14 +51,19 @@ import { Store, ShoppingBag, Truck, ChartNoAxesCombined } from '@lucide/vue';
 
         <!-- Botón -->
         <button
-          class="mt-10 bg-[#7e097e] hover:bg-[#9d2a9c] text-white font-semibold px-8 py-4 rounded-xl transition duration-300 shadow-lg hover:shadow-xl">
+          class="mt-10 bg-[#7e097e] hover:bg-[#9d2a9c] text-white font-semibold px-8 py-4 rounded-xl transition duration-300 shadow-lg hover:shadow-xl"
+        >
           Registrar mi negocio
         </button>
       </div>
 
       <!-- Imagen -->
       <div class="lg:w-1/2 flex justify-center">
-        <img src="../assets/members.jpg" alt="Tienda Sabix Delivery" class="w-full max-w-md drop-shadow-2xl" />
+        <img
+          src="../assets/members.jpg"
+          alt="Tienda Sabix Delivery"
+          class="w-full h-137.5 object-cover rounded-3xl shadow-2xl hover:scale-105 transition duration-500"
+        />
       </div>
     </div>
   </section>
