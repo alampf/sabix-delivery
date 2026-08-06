@@ -1,70 +1,59 @@
 <script setup lang="ts">
+import order from '../assets/order.webp';
+import orderTwo from '../assets/order_two.webp';
+import orderThree from '../assets/order_three.jpg';
 const services = [
   {
-    icon: '🍔',
-    title: 'Comida',
-    description: 'Recibe tus platillos favoritos rápido y seguro',
+    image: order,
+    title: 'Ordena en tus restaurantes favoritos',
+    description:
+      'En Sabix Delivery encontrarás una gran variedad de restaurantes y platillos. Todo a unos cuantos clics de distancia.',
   },
   {
-    icon: '📦',
-    title: 'Paquetes',
-    description: 'Envía documentos y productos a cualquier lugar',
+    image: orderTwo,
+    title: 'Ordena sin complicaciones',
+    description:
+      '¿Se te antoja una pizza o un buen sushi? Con Sabix Delivery puedes pagar con tarjeta o efectivo y recibir tu comida donde estés.',
   },
   {
-    icon: '🛒',
-    title: 'Compras',
-    description: 'Nosotros compramos y entregamos por ti',
-  },
-  {
-    icon: '💊',
-    title: 'Farmacia',
-    description: 'Medicamentos y productos hasta tu puerta',
+    image: orderThree,
+    title: 'Entregas rápidas',
+    description:
+      'Nuestros repartidores priorizan la rapidez y el cuidado de cada pedido para que llegue en las mejores condiciones.',
   },
 ];
 </script>
 
 <template>
   <section id="services" class="py-24 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-6 lg:px-20">
-      <!-- Titulo -->
-
-      <div class="text-center max-w-3xl mx-auto">
-        <span
-          class="bg-[#DB6BD7]/30 text-[#7E097E] px-5 py-2 rounded-full font-semibold"
-        >
-          Servicios Sabix
-        </span>
-
-        <h2 class="mt-5 text-4xl lg:text-5xl font-bold text-gray-900">
-          Todo lo que necesitas, en un solo lugar
-        </h2>
-
-        <p class="mt-4 text-gray-600">
-          Envía, compra y recibe productos con nuestros repartidores cercanos.
-        </p>
-      </div>
-
-      <!-- Tarjetas -->
-
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-14">
+    <!-- Contenedor -->
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <!-- Grid -->
+      <div
+        class="grid gap-8 justify-items-center md:grid-cols-2 lg:grid-cols-3"
+      >
         <div
           v-for="service in services"
           :key="service.title"
-          class="bg-white rounded-3xl p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition"
+          class="w-full max-w-sm bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300"
         >
-          <div
-            class="w-20 h-20 rounded-2xl bg-linear-to-br from-[#BC4AB9] to-[#DB6BD7] flex items-center justify-center text-4xl"
-          >
-            {{ service.icon }}
+          <!-- Imagen -->
+          <img
+            :src="service.image"
+            :alt="service.title"
+            class="w-full h-64 object-cover"
+          />
+
+          <!-- Contenido -->
+          <div class="p-8">
+            <h3 class="text-2xl font-bold text-[#7E097E]">
+              {{ service.title }}
+            </h3>
+
+            <p class="mt-4 text-gray-600 leading-7">
+              {{ service.description }}
+            </p>
           </div>
-
-          <h3 class="mt-6 text-2xl font-bold text-[#7E097E]">
-            {{ service.title }}
-          </h3>
-
-          <p class="mt-3 text-gray-600">
-            {{ service.description }}
-          </p>
         </div>
       </div>
     </div>
