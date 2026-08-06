@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import order from '../assets/order.webp';
 import orderTwo from '../assets/order_two.webp';
-import orderThree from '../assets/order_three.jpg';
+import orderThree from '../assets/order_three.png';
 const services = [
   {
     image: order,

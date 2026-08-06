@@ -1,7 +1,12 @@
 import { MapPin, Facebook } from '@lucide/vue';
 <script setup lang="ts">
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { Mail, MapPin, Phone } from '@lucide/vue';
-
+import {
+  faFacebookF,
+  faInstagram,
+  faXTwitter,
+} from '@fortawesome/free-brands-svg-icons';
 </script>
 
 <template>
@@ -10,7 +15,11 @@ import { Mail, MapPin, Phone } from '@lucide/vue';
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         <!-- Logo -->
         <div>
-          <img src="../assets/sabix_delivery_logo.png" alt="Sabix Delivery" class="w-20 mb-5" />
+          <img
+            src="../assets/sabix_delivery_logo.png"
+            alt="Sabix Delivery"
+            class="w-20 mb-5"
+          />
 
           <h3 class="text-2xl font-bold">Sabix Delivery</h3>
 
@@ -82,20 +91,34 @@ import { Mail, MapPin, Phone } from '@lucide/vue';
           <h4 class="text-xl font-semibold mb-5">Síguenos</h4>
 
           <div class="flex gap-4">
+            <!-- Facebook -->
             <a
-              href="#"
-              class="w-12 h-12 rounded-full bg-white/15 flex items-center justify-center hover:bg-white hover:text-[#7e097e] transition"
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-12 h-12 rounded-full bg-white/15 flex items-center justify-center hover:bg-white hover:text-[#1877F2] transition-all duration-300 hover:scale-110"
             >
-            <!-- Logo de Facebook -->
-              <Facebook class="w-6 h-6" />
+              <FontAwesomeIcon :icon="faFacebookF" class="text-xl" />
             </a>
 
+            <!-- Instagram -->
             <a
-              href="#"
-              class="w-12 h-12 rounded-full bg-white/15 flex items-center justify-center hover:bg-white hover:text-[#7e097e] transition"
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-12 h-12 rounded-full bg-white/15 flex items-center justify-center hover:bg-white hover:text-[#E4405F] transition-all duration-300 hover:scale-110"
             >
-            <!-- Logo de Instagram -->
-              <Instagram class="w-6 h-6" />
+              <FontAwesomeIcon :icon="faInstagram" class="text-xl" />
+            </a>
+
+            <!-- X -->
+            <a
+              href="https://x.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-12 h-12 rounded-full bg-white/15 flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300 hover:scale-110"
+            >
+              <FontAwesomeIcon :icon="faXTwitter" class="text-xl" />
             </a>
           </div>
 
