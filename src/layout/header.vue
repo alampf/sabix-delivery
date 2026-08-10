@@ -48,14 +48,6 @@ const menu = [
           <a href="https://play.google.com/store/games?hl=es_MX" target="_blank">Descargar App</a>
         </button>
       </div>
-
-      <!-- Menú móvil -->
-      <button
-        class="lg:hidden rounded-lg bg-[#9D2A9C] p-2 text-white"
-        aria-label="Abrir menú"
-      >
-        ☰
-      </button>
     </nav>
   </header>
 </template>
