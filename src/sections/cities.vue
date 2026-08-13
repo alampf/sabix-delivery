@@ -13,7 +13,7 @@ const cities = [
 </script>
 
 <template>
-  <section class="py-24 px-6 bg-white">
+  <section id="cities" class="py-24 px-6 bg-white">
     <div class="max-w-7xl mx-auto">
       <!-- Encabezado -->
       <div class="text-center">

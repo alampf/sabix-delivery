@@ -4,7 +4,7 @@ import { Clock3, MapPinned, Smartphone, Wallet } from '@lucide/vue';
 </script>
 
 <template>
-  <section class="py-24 px-6 bg-gray-50">
+  <section id="drivers" class="py-24 px-6 bg-gray-50">
     <div class="max-w-7xl mx-auto flex flex-col lg:flex-row-reverse items-center justify-between gap-16">
       <!-- Información -->
       <div class="lg:w-1/2">

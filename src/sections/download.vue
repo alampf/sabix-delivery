@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <section class="flex items-center justify-center py-20 px-6">
-    <div class="w-full max-w-6xl rounded-3xl bg-gradient-to-r from-[#7e097e] via-[#9d2a9c] to-[#bc4ab9] shadow-2xl">
+    <div class="w-full max-w-6xl rounded-3xl bg-linear-to-r from-[#7e097e] via-[#9d2a9c] to-[#bc4ab9] shadow-2xl">
       <div class="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 p-10 md:p-16">
         <!-- Información -->
         <div class="text-white max-w-xl">
