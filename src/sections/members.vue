@@ -3,7 +3,7 @@ import { Store, ShoppingBag, Truck, ChartNoAxesCombined } from '@lucide/vue';
 </script>
 
 <template>
-  <section class="py-24 px-6 bg-white">
+  <section id="business" class="py-24 px-6 bg-white">
     <div
       class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-16"
     >

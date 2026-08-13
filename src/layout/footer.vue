@@ -10,7 +10,7 @@ import {
 </script>
 
 <template>
-  <footer class="bg-[#7e097e] text-white">
+  <footer id="contact" class="bg-[#7e097e] text-white">
     <div class="max-w-7xl mx-auto px-6 py-16">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         <!-- Logo -->

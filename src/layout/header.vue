@@ -2,8 +2,9 @@
 const menu = [
   { name: 'Inicio', href: '#hero' },
   { name: 'Servicios', href: '#services' },
-  { name: 'Repartidores', href: '#drivers' },
   { name: 'Empresas', href: '#business' },
+  { name: 'Repartidores', href: '#drivers' },
+  { name: 'Ciudades', href: '#cities' },
   { name: 'Contacto', href: '#contact' },
 ];
 </script>
