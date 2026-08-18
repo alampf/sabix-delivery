@@ -15,13 +15,9 @@ import {
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         <!-- Logo -->
         <div>
-          <img
-            src="../assets/sabix_delivery_logo.png"
-            alt="Sabix Delivery"
-            class="w-20 mb-5"
-          />
+          <img src="../assets/sabix_delivery_logo.png" alt="Sabix Delivery" class="w-20 mb-5" />
 
-          <h3 class="text-2xl font-bold">Sabix Delivery</h3>
+          <h3 class="text-2xl font-bold">Delivery</h3>
 
           <p class="mt-4 text-purple-100 leading-7">
             Conectamos a las personas con sus restaurantes y negocios favoritos
@@ -92,32 +88,20 @@ import {
 
           <div class="flex gap-4">
             <!-- Facebook -->
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-12 h-12 rounded-full bg-white/15 flex items-center justify-center hover:bg-white hover:text-[#1877F2] transition-all duration-300 hover:scale-110"
-            >
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+              class="w-12 h-12 rounded-full bg-white/15 flex items-center justify-center hover:bg-white hover:text-[#1877F2] transition-all duration-300 hover:scale-110">
               <FontAwesomeIcon :icon="faFacebookF" class="text-xl" />
             </a>
 
             <!-- Instagram -->
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-12 h-12 rounded-full bg-white/15 flex items-center justify-center hover:bg-white hover:text-[#E4405F] transition-all duration-300 hover:scale-110"
-            >
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+              class="w-12 h-12 rounded-full bg-white/15 flex items-center justify-center hover:bg-white hover:text-[#E4405F] transition-all duration-300 hover:scale-110">
               <FontAwesomeIcon :icon="faInstagram" class="text-xl" />
             </a>
 
             <!-- X -->
-            <a
-              href="https://x.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-12 h-12 rounded-full bg-white/15 flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300 hover:scale-110"
-            >
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer"
+              class="w-12 h-12 rounded-full bg-white/15 flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300 hover:scale-110">
               <FontAwesomeIcon :icon="faXTwitter" class="text-xl" />
             </a>
           </div>
@@ -126,17 +110,15 @@ import {
             <p class="text-purple-100 mb-4">Descarga nuestra app</p>
 
             <div class="flex flex-col gap-3">
-              <img
-                src="../assets/badge_apple_es.webp"
-                alt="App Store"
-                class="h-12 w-fit hover:scale-105 transition"
-              />
+              <a href="https://www.apple.com/mx/app-store/" target="_blank">
+                <img src="../assets/badge_apple_es.webp" alt="App Store"
+                  class="h-12 w-fit hover:scale-105 transition" />
+              </a>
 
-              <img
-                src="../assets/badge_googleplay_es.webp"
-                alt="Google Play"
-                class="h-12 w-fit hover:scale-105 transition"
-              />
+              <a href="https://play.google.com/store/games?hl=es_MX" target="_blank">
+                <img src="../assets/badge_googleplay_es.webp" alt="Google Play"
+                  class="h-12 w-fit hover:scale-105 transition" />
+              </a>
             </div>
           </div>
         </div>
@@ -144,9 +126,7 @@ import {
 
       <!-- Línea -->
       <div class="border-t border-white/20 mt-12 pt-8">
-        <div
-          class="flex flex-col md:flex-row items-center justify-between gap-4"
-        >
+        <div class="flex flex-col md:flex-row items-center justify-between gap-4">
           <p class="text-purple-100 text-center md:text-left">
             © 2026 Sabix Delivery. Todos los derechos reservados.
           </p>

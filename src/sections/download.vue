@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <section class="flex items-center justify-center py-20 px-6">
+  <section id="download" class="flex items-center justify-center py-20 px-6">
     <div class="w-full max-w-6xl rounded-3xl bg-linear-to-r from-[#7e097e] via-[#9d2a9c] to-[#bc4ab9] shadow-2xl">
       <div class="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 p-10 md:p-16">
         <!-- Información -->
@@ -17,12 +17,12 @@
 
           <!-- Badges oficiales -->
           <div class="flex flex-wrap items-center gap-4 mt-8">
-            <a href="#" target="_blank">
+            <a href="https://play.google.com/store/games?hl=es_MX" target="_blank">
               <img src="../assets/badge_googleplay_es.webp" alt="Descargar en Google Play"
                 class="h-14 transition duration-300 hover:scale-105" />
             </a>
 
-            <a href="#" target="_blank">
+            <a href="https://www.apple.com/mx/app-store/" target="_blank">
               <img src="../assets/badge_apple_es.webp" alt="Disponible en App Store"
                 class="h-14 transition duration-300 hover:scale-105" />
             </a>
