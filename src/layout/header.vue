@@ -46,7 +46,7 @@ const menu = [
         <button
           class="rounded-full bg-[#9D2A9C] px-6 py-2 font-semibold text-white transition hover:bg-[#7E097E]"
         >
-          <a href="https://play.google.com/store/games?hl=es_MX" target="_blank">Descargar App</a>
+          <a href="#download">Descargar App</a>
         </button>
       </div>
     </nav>
